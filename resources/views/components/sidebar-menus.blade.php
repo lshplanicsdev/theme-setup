@@ -385,14 +385,14 @@
          </a>
          <ul class="menu-sub">
              <li class="menu-item">
-                 <a href="app-user-list.html" class="menu-link">
-                     <div data-i18n="List">List</div>
+                 <a href="{{ route('user.userList') }}" class="menu-link">
+                     <div data-i18n="List">User List</div>
                  </a>
              </li>
 
              <li class="menu-item">
                  <a href="javascript:void(0);" class="menu-link menu-toggle">
-                     <div data-i18n="View">View</div>
+                     <div data-i18n="View">Add User</div>
                  </a>
                  <ul class="menu-sub">
                      <li class="menu-item">

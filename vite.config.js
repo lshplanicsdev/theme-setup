@@ -35,6 +35,13 @@ export default defineConfig({
                 "resources/assets/vendor/libs/@form-validation/form-validation.css",
                 "",
 
+                //user
+                "resources/assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css",
+                "resources/assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css",
+                "resources/assets/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.css",
+                "resources/assets/vendor/libs/select2/select2.css",
+                "resources/assets/vendor/libs/@form-validation/form-validation.css",
+
                 //js
                 // "resources/js/app.js",
                 "resources/assets/vendor/js/helpers.js",
@@ -75,6 +82,15 @@ export default defineConfig({
                 "resources/assets/js/app-user-view-account.js",
                 "resources/assets/vendor/libs/masonry/masonry.js",
                 "resources/js/sweetalert.js",
+
+                //USER
+                "resources/assets/vendor/libs/moment/moment.js",
+                "resources/assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js",
+                "resources/assets/vendor/libs/select2/select2.js",
+                "resources/assets/vendor/libs/@form-validation/popular.js",
+                "resources/assets/vendor/libs/@form-validation/bootstrap5.js",
+                "resources/assets/vendor/libs/@form-validation/auto-focus.js",
+                "resources/assets/vendor/libs/cleave-zen/cleave-zen.js",
             ],
             refresh: true,
         }),

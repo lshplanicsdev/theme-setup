@@ -6,6 +6,7 @@ use App\Http\Controllers\navbarmenuController;
 use App\Http\Controllers\ProductController;
 use App\Models\navbarmenu;
 use Illuminate\Support\Facades\Route;
+use Illuminate\View\View;
 
 Route::get('/', function () {
     return view('layout.app');
@@ -18,13 +19,15 @@ Route::get('/', function () {
 Route::resource('menus', MenuController::class);
 // we already create route here
 
-Route::get('/home',function(){
+Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/app-user-view-account',[MenuController::class,'displayMenus']);
+Route::get('/app-user-view-account', [MenuController::class, 'displayMenus']);
 
-Route::view('card','Admin.menus.cards-basic');
+Route::get('/home/userlist', function () {
+    return view('Admin.menus.userList');
+})->name('user.userList');
 
 
 Route::resource('product', ProductController::class);
