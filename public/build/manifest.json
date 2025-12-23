@@ -1,0 +1,290 @@
+{
+  "resources/assets/css/demo.css": {
+    "file": "assets/demo-BzTSgI6H.css",
+    "src": "resources/assets/css/demo.css",
+    "isEntry": true,
+    "name": "demo",
+    "names": [
+      "demo.css"
+    ]
+  },
+  "resources/assets/js/app-ecommerce-dashboard.js": {
+    "file": "assets/app-ecommerce-dashboard--aLv0Q94.js",
+    "name": "app-ecommerce-dashboard",
+    "src": "resources/assets/js/app-ecommerce-dashboard.js",
+    "isEntry": true
+  },
+  "resources/assets/js/config.js": {
+    "file": "assets/config-CI81Wznk.js",
+    "name": "config",
+    "src": "resources/assets/js/config.js",
+    "isEntry": true
+  },
+  "resources/assets/js/main.js": {
+    "file": "assets/main-CACIKD4I.js",
+    "name": "main",
+    "src": "resources/assets/js/main.js",
+    "isEntry": true
+  },
+  "resources/assets/js/ui-toasts.js": {
+    "file": "assets/ui-toasts-ci1nmU9W.js",
+    "name": "ui-toasts",
+    "src": "resources/assets/js/ui-toasts.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/css/core.css": {
+    "file": "assets/core-THsKC844.css",
+    "src": "resources/assets/vendor/css/core.css",
+    "isEntry": true,
+    "name": "core",
+    "names": [
+      "core.css"
+    ]
+  },
+  "resources/assets/vendor/css/pages/app-ecommerce-dashboard.css": {
+    "file": "assets/app-ecommerce-dashboard-CIuTRQnO.css",
+    "src": "resources/assets/vendor/css/pages/app-ecommerce-dashboard.css",
+    "isEntry": true,
+    "name": "app-ecommerce-dashboard",
+    "names": [
+      "app-ecommerce-dashboard.css"
+    ]
+  },
+  "resources/assets/vendor/fonts/iconify-icons.css": {
+    "file": "assets/iconify-icons-CUE6U6uZ.css",
+    "src": "resources/assets/vendor/fonts/iconify-icons.css",
+    "isEntry": true,
+    "name": "iconify-icons",
+    "names": [
+      "iconify-icons.css"
+    ]
+  },
+  "resources/assets/vendor/js/bootstrap.js": {
+    "file": "assets/bootstrap-DGnTZBeA.js",
+    "name": "bootstrap",
+    "src": "resources/assets/vendor/js/bootstrap.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/js/helpers.js": {
+    "file": "assets/helpers-znZS3NdK.js",
+    "name": "helpers",
+    "src": "resources/assets/vendor/js/helpers.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/js/menu.js": {
+    "file": "assets/menu-CZoA0xy1.js",
+    "name": "menu",
+    "src": "resources/assets/vendor/js/menu.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/js/template-customizer.js": {
+    "file": "assets/template-customizer-KbwYrIMr.js",
+    "name": "template-customizer",
+    "src": "resources/assets/vendor/js/template-customizer.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/@algolia/autocomplete-js.js": {
+    "file": "assets/autocomplete-js-CknGithb.js",
+    "name": "autocomplete-js",
+    "src": "resources/assets/vendor/libs/@algolia/autocomplete-js.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/animate-css/animate.css": {
+    "file": "assets/animate-Dk0W35pl.css",
+    "src": "resources/assets/vendor/libs/animate-css/animate.css",
+    "isEntry": true,
+    "name": "animate",
+    "names": [
+      "animate.css"
+    ]
+  },
+  "resources/assets/vendor/libs/apex-charts/apex-charts.css": {
+    "file": "assets/apex-charts-D5wTMSNR.css",
+    "src": "resources/assets/vendor/libs/apex-charts/apex-charts.css",
+    "isEntry": true,
+    "name": "apex-charts",
+    "names": [
+      "apex-charts.css"
+    ]
+  },
+  "resources/assets/vendor/libs/apex-charts/apexcharts.js": {
+    "file": "assets/apexcharts-Ct5ryic-.js",
+    "name": "apexcharts",
+    "src": "resources/assets/vendor/libs/apex-charts/apexcharts.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/cleave-zen/cleave-zen.js": {
+    "file": "assets/cleave-zen-DggKsLTs.js",
+    "name": "cleave-zen",
+    "src": "resources/assets/vendor/libs/cleave-zen/cleave-zen.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js": {
+    "file": "assets/datatables-bootstrap5-BBW0UCSn.js",
+    "name": "datatables-bootstrap5",
+    "src": "resources/assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css": {
+    "file": "assets/datatables-BUvHya69.css",
+    "src": "resources/assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css",
+    "isEntry": true,
+    "name": "datatables.bootstrap5",
+    "names": [
+      "datatables.css"
+    ]
+  },
+  "resources/assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css": {
+    "file": "assets/responsive-D39yUbp6.css",
+    "src": "resources/assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css",
+    "isEntry": true,
+    "name": "responsive.bootstrap5",
+    "names": [
+      "responsive.css"
+    ]
+  },
+  "resources/assets/vendor/libs/flatpickr/flatpickr.css": {
+    "file": "assets/flatpickr-UvEFVdK1.css",
+    "src": "resources/assets/vendor/libs/flatpickr/flatpickr.css",
+    "isEntry": true,
+    "name": "flatpickr",
+    "names": [
+      "flatpickr.css"
+    ]
+  },
+  "resources/assets/vendor/libs/flatpickr/flatpickr.js": {
+    "file": "assets/flatpickr-DsGayHNo.js",
+    "name": "flatpickr",
+    "src": "resources/assets/vendor/libs/flatpickr/flatpickr.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/hammer/hammer.js": {
+    "file": "assets/hammer-QuQ5uUIz.js",
+    "name": "hammer",
+    "src": "resources/assets/vendor/libs/hammer/hammer.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/i18n/i18n.js": {
+    "file": "assets/i18n-DjTcW6t4.js",
+    "name": "i18n",
+    "src": "resources/assets/vendor/libs/i18n/i18n.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/jquery/jquery.js": {
+    "file": "assets/jquery-C_GoOYaG.js",
+    "name": "jquery",
+    "src": "resources/assets/vendor/libs/jquery/jquery.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/moment/moment.js": {
+    "file": "assets/moment-CxvQ3RyC.js",
+    "name": "moment",
+    "src": "resources/assets/vendor/libs/moment/moment.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/node-waves/node-waves.css": {
+    "file": "assets/node-waves-VJmmnFRE.css",
+    "src": "resources/assets/vendor/libs/node-waves/node-waves.css",
+    "isEntry": true,
+    "name": "node-waves",
+    "names": [
+      "node-waves.css"
+    ]
+  },
+  "resources/assets/vendor/libs/node-waves/node-waves.js": {
+    "file": "assets/node-waves-CG3W4FiS.js",
+    "name": "node-waves",
+    "src": "resources/assets/vendor/libs/node-waves/node-waves.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/notyf/notyf.css": {
+    "file": "assets/notyf-cC7B7lGA.css",
+    "src": "resources/assets/vendor/libs/notyf/notyf.css",
+    "isEntry": true,
+    "name": "notyf",
+    "names": [
+      "notyf.css"
+    ]
+  },
+  "resources/assets/vendor/libs/notyf/notyf.js": {
+    "file": "assets/notyf-BqodyO54.js",
+    "name": "notyf",
+    "src": "resources/assets/vendor/libs/notyf/notyf.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css": {
+    "file": "assets/perfect-scrollbar-D1VS3Q33.css",
+    "src": "resources/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css",
+    "isEntry": true,
+    "name": "perfect-scrollbar",
+    "names": [
+      "perfect-scrollbar.css"
+    ]
+  },
+  "resources/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js": {
+    "file": "assets/perfect-scrollbar-DnRKRyBm.js",
+    "name": "perfect-scrollbar",
+    "src": "resources/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/pickr/pickr-themes.css": {
+    "file": "assets/pickr-themes-DMXRfbJT.css",
+    "src": "resources/assets/vendor/libs/pickr/pickr-themes.css",
+    "isEntry": true,
+    "name": "pickr-themes",
+    "names": [
+      "pickr-themes.css"
+    ]
+  },
+  "resources/assets/vendor/libs/pickr/pickr.js": {
+    "file": "assets/pickr-BwGaSbNL.js",
+    "name": "pickr",
+    "src": "resources/assets/vendor/libs/pickr/pickr.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/popper/popper.js": {
+    "file": "assets/popper-DxL2VuTF.js",
+    "name": "popper",
+    "src": "resources/assets/vendor/libs/popper/popper.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/select2/select2.css": {
+    "file": "assets/select2-D9WTPIs0.css",
+    "src": "resources/assets/vendor/libs/select2/select2.css",
+    "isEntry": true,
+    "name": "select2",
+    "names": [
+      "select2.css"
+    ]
+  },
+  "resources/assets/vendor/libs/select2/select2.js": {
+    "file": "assets/select2-Dixjc2RE.js",
+    "name": "select2",
+    "src": "resources/assets/vendor/libs/select2/select2.js",
+    "isEntry": true
+  },
+  "resources/assets/vendor/libs/swiper/swiper.css": {
+    "file": "assets/swiper-_Edpb3c-.css",
+    "src": "resources/assets/vendor/libs/swiper/swiper.css",
+    "isEntry": true,
+    "name": "swiper",
+    "names": [
+      "swiper.css"
+    ]
+  },
+  "resources/assets/vendor/libs/swiper/swiper.js": {
+    "file": "assets/swiper-CDOQu6eD.js",
+    "name": "swiper",
+    "src": "resources/assets/vendor/libs/swiper/swiper.js",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-Bzn5dzDD.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  }
+}
