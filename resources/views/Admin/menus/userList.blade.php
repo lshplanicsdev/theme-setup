@@ -31,9 +31,9 @@
 
                     @foreach ($users as $user)
                         <tr>
+                            <td>{{ $user->id }}</td>
                             <td>{{ $user->user }}</td>
                             <td>{{ $user->email }}</td>
-                            <td>{{ $user->password }}</td>
                             <td>{{ $user->role }}</td>
                             <td>{{ $user->plan }}</td>
                             <td>{{ $user->status }}</td>
@@ -44,18 +44,20 @@
                                         <i class="icon-base ri ri-more-2-line icon-18px"></i>
                                     </button>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href=""><i
+                                        <a class="dropdown-item" href="{{ route('user.edit', $user) }}"><i
                                                 class="icon-base ri ri-pencil-line icon-18px me-1"></i> Edit</a>
 
 
-                                        <form action="" method="POST" class="delete-form">
+                                        <form action="{{ route('user.destroy', $user->id) }}" method="POST"
+                                            class="delete-form">
                                             @csrf
                                             @method('DELETE')
-                                            <button type="button" class="dropdown-item delete-btn">
+                                            <button type="submit" class="dropdown-item delete-btn">
                                                 <i class="icon-base ri ri-delete-bin-6-line icon-18px me-1"></i>
                                                 Delete
                                             </button>
                                         </form>
+
 
                                     </div>
                                 </div>

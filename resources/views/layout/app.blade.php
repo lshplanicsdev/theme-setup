@@ -9,50 +9,50 @@
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
     <meta name="robots" content="noindex, nofollow" />
     <title>@yield('title')</title>
-    <<meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <meta name="description" content="" />
+    <meta name="description" content="" />
 
-        <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="../../assets/img/favicon/favicon.ico" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon/favicon.ico" />
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&ampdisplay=swap"
-            rel="stylesheet" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&ampdisplay=swap"
+        rel="stylesheet" />
 
-        @vite(['resources/assets/vendor/fonts/iconify-icons.css', 'resources/assets/vendor/libs/node-waves/node-waves.css', 'resources/assets/vendor/libs/pickr/pickr-themes.css', 'resources/assets/vendor/css/core.css', 'resources/assets/css/demo.css', 'resources/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css'])
-        {{-- <link rel="stylesheet" href="../../assets/vendor/fonts/iconify-icons.css" /> --}}
+    @vite(['resources/assets/vendor/fonts/iconify-icons.css', 'resources/assets/vendor/libs/node-waves/node-waves.css', 'resources/assets/vendor/libs/pickr/pickr-themes.css', 'resources/assets/vendor/css/core.css', 'resources/assets/css/demo.css', 'resources/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css'])
+    {{-- <link rel="stylesheet" href="../../assets/vendor/fonts/iconify-icons.css" /> --}}
 
-        <!-- Core CSS -->
-        <!-- build:css assets/vendor/css/theme.css -->
+    <!-- Core CSS -->
+    <!-- build:css assets/vendor/css/theme.css -->
 
-        {{-- <link rel="stylesheet" href="../../assets/vendor/libs/node-waves/node-waves.css" />
+    {{-- <link rel="stylesheet" href="../../assets/vendor/libs/node-waves/node-waves.css" />
 
     <link rel="stylesheet" href="../../assets/vendor/libs/pickr/pickr-themes.css" />
 
     <link rel="stylesheet" href="../../assets/vendor/css/core.css" />
     <link rel="stylesheet" href="../../assets/css/demo.css" /> --}}
 
-        <!-- Vendors CSS -->
+    <!-- Vendors CSS -->
 
-        {{-- <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" /> --}}
+    {{-- <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" /> --}}
 
-        <!-- endbuild -->
+    <!-- endbuild -->
 
-        @vite(['resources/assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css', 'resources/assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css', 'resources/assets/vendor/libs/apex-charts/apex-charts.css', 'resources/assets/vendor/libs/swiper/swiper.css', 'resources/assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css', 'resources/assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css', 'resources/assets/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.css', 'resources/assets/vendor/libs/select2/select2.css', 'resources/assets/vendor/libs/@form-validation/form-validation.css'])
+    @vite(['resources/assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css', 'resources/assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css', 'resources/assets/vendor/libs/apex-charts/apex-charts.css', 'resources/assets/vendor/libs/swiper/swiper.css', 'resources/assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css', 'resources/assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css', 'resources/assets/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.css', 'resources/assets/vendor/libs/select2/select2.css', 'resources/assets/vendor/libs/@form-validation/form-validation.css'])
 
-        @vite(['resources/assets/vendor/css/pages/app-ecommerce-dashboard.css'])
+    @vite(['resources/assets/vendor/css/pages/app-ecommerce-dashboard.css'])
 
-        <!-- Helpers -->
-        @vite([
-            // "resources/js/app.js",
-            'resources/assets/vendor/js/helpers.js',
-            'resources/assets/vendor/js/template-customizer.js',
-            'resources/assets/js/config.js',
-            'resources/js/sweetalert.js',
-        ])
+    <!-- Helpers -->
+    @vite([
+        // "resources/js/app.js",
+        'resources/assets/vendor/js/helpers.js',
+        'resources/assets/vendor/js/template-customizer.js',
+        'resources/assets/js/config.js',
+        'resources/js/sweetalert.js',
+    ])
 
 </head>
 

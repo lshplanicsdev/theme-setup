@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class UserController extends Controller
 {
@@ -30,7 +31,46 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        $validation = Validator::make(
+            $request->all(),
+            [
+                'user' => 'required',
+                'email' => 'required',
+                'password' => 'required',
+                'role' => 'required',
+                'plan' => 'required',
+                'status' => 'required',
+            ]
+        );
+
+        if ($validation->fails()) {
+            return response()->json([
+                'status' => false,
+                'message' => "validation error",
+                'error' => $validation->errors()->all()
+            ]);
+        }
+
+        if ($request->status == 'active') {
+            $status = 1;
+        } else {
+            $status = 0;
+        }
+
+        $user = User::create([
+            'user' => $request->user,
+            'email' => $request->email,
+            'password' => $request->password,
+            'role' => $request->role,
+            'plan' => $request->plan,
+            'status' => $status,
+        ]);
+
+        return response()->json([
+            'status' => true,
+            'message' => "user added successfully"
+        ], 200);
     }
 
     /**
@@ -44,9 +84,9 @@ class UserController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(User $user)
     {
-        //
+        return view('Admin.menus.adduser', compact('user'));
     }
 
     /**
@@ -54,7 +94,44 @@ class UserController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $validation = Validator::make(
+            $request->all(),
+            [
+                'user' => 'required',
+                'email' => 'required',
+                'role' => 'required',
+                'plan' => 'required',
+                'status' => 'required',
+            ]
+        );
+
+        if ($validation->fails()) {
+            return response()->json([
+                'status' => false,
+                'message' => "validation error",
+                'error' => $validation->errors()->all()
+            ]);
+        }
+
+        if ($request->status == 'active') {
+            $status = 1;
+        } else {
+            $status = 0;
+        }
+
+        $user = User::find($id);
+        $user->update([
+            'user' => $request->user,
+            'email' => $request->email,
+            'role' => $request->role,
+            'plan' => $request->plan,
+            'status' => $status,
+        ]);
+
+        return response()->json([
+            'status' => true,
+            'message' => "user updated successfully"
+        ], 200);
     }
 
     /**
@@ -62,6 +139,10 @@ class UserController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+
+        $user = User::find($id);
+        // dd($user);
+        $user->delete();
+        return redirect()->route('user.index');
     }
 }
