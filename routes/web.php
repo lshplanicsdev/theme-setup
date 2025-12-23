@@ -4,6 +4,7 @@ use App\Http\Controllers\MenuController;
 use App\Http\Controllers\Navbar_menuController;
 use App\Http\Controllers\navbarmenuController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\UserController;
 use App\Models\navbarmenu;
 use Illuminate\Support\Facades\Route;
 use Illuminate\View\View;
@@ -25,9 +26,7 @@ Route::get('/home', function () {
 
 Route::get('/app-user-view-account', [MenuController::class, 'displayMenus']);
 
-Route::get('/home/userlist', function () {
-    return view('Admin.menus.userList');
-})->name('user.userList');
+Route::resource('user', UserController::class);
 
 
 Route::resource('product', ProductController::class);

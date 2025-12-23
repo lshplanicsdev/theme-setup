@@ -385,7 +385,7 @@
          </a>
          <ul class="menu-sub">
              <li class="menu-item">
-                 <a href="{{ route('user.userList') }}" class="menu-link">
+                 <a href="{{ route('user.index') }}" class="menu-link">
                      <div data-i18n="List">User List</div>
                  </a>
              </li>

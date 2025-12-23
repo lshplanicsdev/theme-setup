@@ -16,6 +16,7 @@ class MenuController extends Controller
         $menus = Menu::get();
 
         // return view('app-user-view-account', compact('menus'));
+
         return view('Admin.menus.index', compact('menus'));
     }
 
