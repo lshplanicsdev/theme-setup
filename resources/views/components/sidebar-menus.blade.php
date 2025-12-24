@@ -46,6 +46,18 @@
              <div data-i18n="Menu">Product</div>
          </a>
      </li>
+     <li class="menu-item">
+         <a href="{{ route('user.register') }}" class="menu-link">
+             <i class="menu-icon icon-base ri ri-menu-line"></i>
+             <div data-i18n="Menu">Register</div>
+         </a>
+     </li>
+     <li class="menu-item">
+         <a href="#" class="menu-link">
+             <i class="menu-icon icon-base ri ri-menu-line"></i>
+             <div data-i18n="Menu">Login</div>
+         </a>
+     </li>
      </li>
 
      <!-- Layouts -->

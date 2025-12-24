@@ -30,3 +30,7 @@ Route::resource('user', UserController::class);
 
 
 Route::resource('product', ProductController::class);
+
+Route::get('user-register', function () {
+    return view('user.register');
+})->name('user.register');

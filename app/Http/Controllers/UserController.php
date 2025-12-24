@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
+use App\Models\Member;
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -13,7 +14,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        $users = User::get();
+        $users = Member::get();
         // dd($users);
         return view('Admin.menus.userList', compact('users'));
     }
@@ -58,7 +59,7 @@ class UserController extends Controller
             $status = 0;
         }
 
-        $user = User::create([
+        $user = Member::create([
             'user' => $request->user,
             'email' => $request->email,
             'password' => $request->password,
@@ -84,7 +85,7 @@ class UserController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(User $user)
+    public function edit(Member $user)
     {
         return view('Admin.menus.adduser', compact('user'));
     }
@@ -119,7 +120,7 @@ class UserController extends Controller
             $status = 0;
         }
 
-        $user = User::find($id);
+        $user = Member::find($id);
         $user->update([
             'user' => $request->user,
             'email' => $request->email,
@@ -140,7 +141,7 @@ class UserController extends Controller
     public function destroy(string $id)
     {
 
-        $user = User::find($id);
+        $user = Member::find($id);
         // dd($user);
         $user->delete();
         return redirect()->route('user.index');
